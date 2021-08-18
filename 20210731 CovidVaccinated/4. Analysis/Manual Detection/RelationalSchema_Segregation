@@ -1,0 +1,10 @@
+Segregation of a single file into 2 searate file:
+
+1. The first file contains the covid vaccinations on a daily basis
+
+2. Second file has statistics of the total vaccinations per some intervals due to the preence of nulls in most of the data. Hence, creating a visalisation for just the data present will be much more useful and efficient.
+A total of 15276 rows had blank cells.
+Usage of WHERE to segregate the data
+
+WHERE [total_vaccinations] <> ' '	
+

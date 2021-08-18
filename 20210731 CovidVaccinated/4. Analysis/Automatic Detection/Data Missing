@@ -1,0 +1,16 @@
+Total distinct countries from INNER JOIN Daily and by Manufacturer data table = 33
+Total distinct countries in Daily table = 219
+
+There's a data missing from manufacturer for 219-33 = 186 countries
+
+
+USE DSTraining
+GO
+
+SELECT DISTINCT [country]
+FROM [WRK_CovidVacinated_Daily] A
+INNER JOIN [WRK_Covid_Vaccinated_by_Manufacturer] B
+ON A.country = B.location
+
+SELECT DISTINCT [location]
+FROM [WRK_Covid_Vaccinated_by_Manufacturer]

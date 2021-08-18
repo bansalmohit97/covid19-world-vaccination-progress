@@ -1,0 +1,19 @@
+A relationship between all 3 relational schemas.
+
+Daily Vaccinations
+1. Viz of all the countries
+2. Line Chart Depiction for Daily Doses across each country
+		-Labels depicting percentage per million
+3. A card showing 'Powered by Source Name'
+4. A card depicting 'source site'
+
+Weekly Vaccinations
+1. People Vaccinated, People Fully Vaccinated, Total Vaccinations across all countries till date
+		-Colour Code
+		-Label with the ratio percentages
+
+Covid Vaccinations by Manufacturer
+1. Bar chart represenation of the available vaccines across each country
+		-Total reference line
+
+
